@@ -1,23 +1,21 @@
+let age = 110
 
+if (age < 18) {
+  console.log("Permission denied!");
+} else if (age < 50) {
+  console.log("Normal user!");
+} else if (age < 70) {
+  console.log("old user!");
+} else {
+    if (age > 100) {
+        console.log("dead user!");
+    } else {
+        console.log("70 - 100")
+    }
+}
 
-// < > <= >= == != 
-// && || !
-
-// let age = 12;
-// let gender = true;
-
-// if (age >= 18 && gender == true) {
-//     console.log("You have to do militry service first!")
+// if (age >= 18) {
+//     console.log("Welcome to website!")
 // }
 
-// productPrice = 100
-
-// userCredit = 150
-// userPremium = false
-
-// userBlocked = false
-
-// if ((userCredit > productPrice || userPremium) && !userBlocked) {
-//     console.log("You bought the product! Congrats...")
-// }
-
+// console.log("End of our code!")
