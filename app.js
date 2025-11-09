@@ -1,21 +1,15 @@
-let age = 110
 
-if (age < 18) {
-  console.log("Permission denied!");
-} else if (age < 50) {
-  console.log("Normal user!");
-} else if (age < 70) {
-  console.log("old user!");
-} else {
-    if (age > 100) {
-        console.log("dead user!");
-    } else {
-        console.log("70 - 100")
-    }
-}
+let userStatus = true
 
-// if (age >= 18) {
-//     console.log("Welcome to website!")
+// false -> inactive 
+// true -> active
+
+// if (userStatus) {
+//   console.log('active')
+// } else {
+//   console.log('inactive')
 // }
 
-// console.log("End of our code!")
+let userStatusLabel = userStatus ? 'active' : 'inactive'
+
+console.log(userStatusLabel)
