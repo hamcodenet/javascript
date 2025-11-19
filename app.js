@@ -30,27 +30,50 @@ let role = 'administrator' // reader, writer, maintainer, admin
 //     console.log("Invalid role!")
 // }
 
-switch (role) {
-    case 'guest':
-        console.log("You are guest! you can just log in!")
-        break;
-    case 'reader':
-        console.log("You can read the posts")
-        break;
-    case 'writer':
-        console.log("You can read and write")
-        break;
-    case 'maintainer':
-        console.log("You can maintaine the system!") 
-        break;
-    case 'admin':
-    case 'administrator':
-        console.log("You are super admin!")
-        break;
-    case 'developer':
-        console.log("You have full acccess")
-        break;
-    default:
-        console.log("Invalid role!")
-        break;
+// switch (role) {
+//     case 'guest':
+//         console.log("You are guest! you can just log in!")
+//         break;
+//     case 'reader':
+//         console.log("You can read the posts")
+//         break;
+//     case 'writer':
+//         console.log("You can read and write")
+//         break;
+//     case 'maintainer':
+//         console.log("You can maintaine the system!") 
+//         break;
+//     case 'admin':
+//     case 'administrator':
+//         console.log("You are super admin!")
+//         break;
+//     case 'developer':
+//         console.log("You have full acccess")
+//         break;
+//     default:
+//         console.log("Invalid role!")
+//         break;
+// }
+
+
+// alert("Hi all!")
+
+// let sure = confirm("Are you sure?")
+
+// console.log(sure)
+
+// let name = prompt("What is your name?")
+
+// alert(`Welcome ${name}`)
+
+let age = parseInt(prompt("Enter your age:"))
+
+// let monthes = years * 12
+
+// alert (`You are ${monthes} monthes old!`)
+
+if (age > 18) {
+    alert("Welcome!")
+} else {
+    alert("Sorry!")
 }
