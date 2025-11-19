@@ -1,7 +1,6 @@
-
 // let userStatus = true
 
-// // false -> inactive 
+// // false -> inactive
 // // true -> active
 
 // // if (userStatus) {
@@ -14,7 +13,7 @@
 
 // console.log(userStatusLabel)
 
-let role = 'administrator' // reader, writer, maintainer, admin
+let role = "administrator"; // reader, writer, maintainer, admin
 
 // if (role == 'guest') {
 //     console.log("You are guest! you can just log in!")
@@ -23,7 +22,7 @@ let role = 'administrator' // reader, writer, maintainer, admin
 // } else if (role == 'writer') {
 //     console.log("You can read and write")
 // } else if (role == 'maintainer') {
-//     console.log("You can maintaine the system!") 
+//     console.log("You can maintaine the system!")
 // } else if (role == 'admin' || role == 'administrator') {
 //     console.log("You are super admin!")
 // } else {
@@ -41,7 +40,7 @@ let role = 'administrator' // reader, writer, maintainer, admin
 //         console.log("You can read and write")
 //         break;
 //     case 'maintainer':
-//         console.log("You can maintaine the system!") 
+//         console.log("You can maintaine the system!")
 //         break;
 //     case 'admin':
 //     case 'administrator':
@@ -55,7 +54,6 @@ let role = 'administrator' // reader, writer, maintainer, admin
 //         break;
 // }
 
-
 // alert("Hi all!")
 
 // let sure = confirm("Are you sure?")
@@ -66,14 +64,75 @@ let role = 'administrator' // reader, writer, maintainer, admin
 
 // alert(`Welcome ${name}`)
 
-let age = parseInt(prompt("Enter your age:"))
+// let age = parseInt(prompt("Enter your age:"))
 
-// let monthes = years * 12
+// // let monthes = years * 12
 
-// alert (`You are ${monthes} monthes old!`)
+// // alert (`You are ${monthes} monthes old!`)
 
-if (age > 18) {
-    alert("Welcome!")
-} else {
-    alert("Sorry!")
+// if (age > 18) {
+//     alert("Welcome!")
+// } else {
+//     alert("Sorry!")
+// }
+
+// let age = parseInt(prompt("Enter your age:"));
+
+// while (age > 120 || age < 3) {
+//     alert("Invalid age!");
+
+//     age = parseInt(prompt("Enter your age:"));
+// }
+
+// alert (`Your age is ${age}`);
+
+// if (age > 120 || age < 3) {
+//   alert("Invalid age!");
+
+//   age = parseInt(prompt("Enter your age:"));
+
+//   if (age > 120 || age < 3) {
+//     alert("Invalid age!");
+
+//     age = parseInt(prompt("Enter your age:"));
+
+//     if (age > 120 || age < 3) {
+//       alert("Invalid age!");
+
+//       alert("You cannot use our system!")
+//     }
+//   }
+// }
+
+
+// let i = 0
+// let age = 0
+// while (i < 3) {
+//     age = parseInt(prompt("Enter your age:"));
+
+//     i = i + 1
+
+//     if (age > 3 && age < 120) {
+//         break;
+//     }
+// }
+
+// alert(`The vaild age is ${age}`)
+
+
+
+
+while (true) {
+
+    command = prompt("Enter the command")
+
+    if (command == 'quit') {
+        break
+    }
+
+    if (command == 'test' || command == 'send') {
+        continue
+    }
+
+    alert("Invalid command")
 }
